@@ -1,0 +1,24 @@
+{
+  "name": "orientacaoaobjetos",
+	"type": "module",
+  "version": "1.0.0",
+  "description": "Arquivo de aprendizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleiMoura/orientacaoaobjetos.git"
+  },
+  "keywords": [
+    "OO",
+    "Learn"
+  ],
+  "author": "Gleison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleiMoura/orientacaoaobjetos/issues"
+  },
+  "homepage": "https://github.com/gleiMoura/orientacaoaobjetos#readme"
+}
