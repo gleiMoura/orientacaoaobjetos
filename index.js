@@ -1,20 +1,9 @@
 import Cliente from "./Cliente.js";
 import contaCorrente from "./ContaCorrente.js";
 
-const Cliente1 = new Cliente;
+const Cliente1 = new Cliente('Paulo', '123.456.789-12');
 
-Cliente1.nome = 'Paulo';
-Cliente1.cpf = '12345678912';
+const contaCorrente2 = new contaCorrente('1532','45635', Cliente1);
 
-const contaCorrente1 = new contaCorrente;
+console.log(Cliente1);
 
-contaCorrente1.agencia = '1234';
-contaCorrente.conta = '32456';
-contaCorrente1.saldo = 200;
-
-console.log("Cliente1 -->", Cliente1)
-console.log("saldo -->", contaCorrente1.saldo)
-
-contaCorrente1.sacar(300);
-
-console.log("saldo -->", contaCorrente1.saldo);
